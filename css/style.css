@@ -1,0 +1,676 @@
+:root {
+--accent: #2196F3;
+--primary-text-color: #212121;
+--text-color-white: #FFFFFF;
+--text-color-gray: #757575;
+--color-accent-hover: #188ce8;
+--main-background-color: #FFFFFF;
+--second-background-color: #2F303A;
+--third-color-background: #F5F4FA;
+--portfolio-item-bg: #EEEEEE;
+}
+
+/* html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+} */
+
+
+
+/* body */
+body {
+margin: 0;
+font-family:'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.03em;
+line-height: 1.14;
+color: var(--main-background-color);
+}
+
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.container {
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+max-width: 1200px;
+}
+
+.list {
+list-style: none;
+margin: 0;
+padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* header */
+/* навігація */
+
+header {background: var(--main-background-color);
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+display: flex;
+align-items: center;
+margin-top: 0;
+padding-top: 0;
+padding-bottom: 0;
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+
+/* лого */
+.logo {
+padding-top: 24px;
+padding-bottom: 25px;
+margin-right: 93px;
+text-decoration: none;
+font-family: 'Raleway', sans-serif;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent);
+}
+
+.logo-studio {color: var(--primary-text-color);}
+
+/* навігація */
+.nav {display: flex; align-items: center;
+margin-right: auto;
+background: var(--main-background-color);
+}
+
+.site-nav {display: flex; align-items: center;}
+
+.site-nav .link.current,
+.site-nav .link:focus,
+.site-nav .link:hover,
+.contacts link:focus,
+.contacts .link:hover,
+.footer-list .link:focus,
+.footer-list .link:hover {
+color:var(--accent);
+}
+
+.nav-studio {
+ padding-top: 32px;
+padding-bottom: 32px;
+text-decoration: none;
+margin-right: 50px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color); 
+}
+
+.nav-portfolio {
+padding-top: 32px;
+padding-bottom: 32px;
+margin-right: 50px;
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.nav-kontakty {
+padding-top: 32px;
+padding-bottom: 32px;
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.contacts {
+padding-top: 32px;
+padding-bottom: 32px;
+display: flex; align-items: center;}
+
+.mail-header{
+text-decoration: none;
+padding-top: 32px;
+padding-bottom: 32px;
+margin-right: 50px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color-gray);    
+}
+
+.tel-header {
+text-decoration: none;
+padding-top: 32px;
+padding-bottom: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color-gray);
+}
+
+/* основний зміст */
+
+/*секція рішення*/
+.hero {
+text-align: center;
+background: var(--second-background-color);
+}
+
+.section-order {
+max-width: 1600px;
+margin-right: auto;
+margin-left: auto;
+
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.order-container {
+  margin-bottom: 0;
+  padding: 200px 277px 195px 277px;
+  color: var(--main-background-color);
+  }
+
+.title-decision {
+margin-top: 0%;
+margin-bottom: 30px;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--text-color-white);
+}
+
+/*кнопка*/
+.button {
+font-family: 'Roboto', sans-serif;
+border:none;
+display: inline-block;
+padding: 10px 32px;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+/* identical to box height, or 188% */
+border-radius: 4px solid transparent;
+min-width: 200px;
+text-align: center;
+cursor: pointer;
+color: var(--text-color-white);
+background: var(--accent);
+text-decoration: none;
+  }
+
+.button:focus,
+.button:hover {
+background-color: var(--color-accent-hover);
+  }
+
+
+/* наші переваги */
+
+.visually-hidden { position: absolute; white-space: nowrap; width: 0px; height: 0px; overflow: hidden; border: 0;}
+
+.advantages {
+  padding-top: 94px;
+  margin-bottom: 94px;
+  background: var(--main-background-color);
+}
+
+.advantages > .container > .list {
+  display: flex;
+}
+
+.advantages .title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: start;
+  color: var(--primary-text-color);
+}
+
+.advantages .advantage-item > .advantage-text {
+  margin: 0;
+}
+.advantages .advantage-text {
+  width: 270px;
+}
+
+.advantage-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+margin-top: 0px;
+margin-bottom: 0px;
+color: var(--text-color-gray);
+}
+
+.advantages .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* чим займаємось */
+
+.work {
+  margin-top: 0;
+  margin-bottom: 94px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  }
+
+.title-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.work .list {
+  display: flex;
+  justify-content: center;
+}
+
+.work .list > .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work .list > .item > img {
+  display: block;
+}
+
+.information {
+ background: var(--main-background-color);
+}
+
+.work-img {
+display: flex;
+margin-right: auto;
+margin-left: auto;
+gap: 30px;
+}
+
+.foto-left {
+position: relative;
+background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+}
+
+.foto-centr {
+position: relative;
+background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+
+.foto-right {
+position: relative;
+background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
+/*наша команда*/
+
+.team {
+padding-top: 94px;
+padding-bottom: 94px;
+background:var(--third-color-background);
+}
+
+.team .our-team {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.our-team {
+text-align: center;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+.background-team {
+display: flex;
+font-size: 16px;
+line-height: 1.19;
+gap: 30px;
+text-align: center;
+background-color: var(--third-color-background);;
+}
+
+.team-item {
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-basis: calc((100% - 30% * 3) / 4);
+align-items: center;
+padding-bottom: 0px;
+width: 270px;
+box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+background-color: var(--main-background-color);
+}
+
+.team-wrapper {
+padding-top: 30px 10px;
+}
+
+.demianenko {
+display: inline-block;
+margin-bottom: 30px;
+background: url(4853.jpg);
+border-radius: 0px;
+}
+
+.repina {
+display: inline-block;
+margin-bottom: 30px;
+font-weight: 500;
+background: url(5844.jpg);
+border-radius: 0px;
+}
+
+.tarasov {
+display: inline-block;
+margin-bottom: 30px;
+background: url(16166.jpg);
+border-radius: 0px;
+}
+
+.ermakov {
+display: inline-block;
+margin-bottom: 30px;
+background: url(2968.jpg);
+border-radius: 0px;
+}
+ .name {
+margin-top: 0;
+margin-bottom: 10px;
+font-weight: 500;
+font-size: inherit;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+ }
+
+.specialty {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+margin-bottom: 30px;
+color: var(--text-color-gray);
+ }
+
+/*footer*/
+
+.footer {
+background: var(--second-background-color);
+}
+
+.container-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-footer {
+display: block;
+margin-top: 0px;
+margin-bottom: 20px;
+text-decoration: none;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent);
+}
+
+.logo-studio-footer {
+color:var(--text-color-white);
+}
+
+.footer-list {padding: 0px; margin-left: auto;}
+
+.line {
+  margin-bottom: 9px;
+}
+
+.adress-footer {
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-color-white);
+}
+
+.mail-footer {
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-color-gray);
+}
+
+.tel-footer {
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+margin-bottom: 0px;
+color: var(--text-color-gray);
+}
+
+/* portfolio */
+
+.main-portfolio {
+    background: var(--main-background-color);
+}
+
+ /* Фільтр */
+
+ .main-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+ }
+
+ .main-portfolio > .container > .list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-portfolio .list:first-of-type {
+  margin-bottom: 50px;
+}
+
+.main-portfolio .item:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* кнопки фільтра */
+.button-filtr {
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: none;
+    color: var(--primary-text-color);
+    background-color: var(--third-color-background);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    font-family: 'Roboto';
+    padding: 6px 22px 6px 22px;
+    background: #F5F4FA;
+}
+
+.button-filtr.current {
+  color: var(--text-color-white);
+  background-color: var(--accent);
+  }
+
+.main-portfolio-button:hover,
+.main-portfolio-button:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  cursor: pointer
+}
+
+/* картинки */
+
+  
+.gallery-item {
+flex-basis: calc((100% - (30px * 2)) / 3);
+font-size: 16px;
+line-height: 1.88;
+background: var(--text-color-white);
+border-radius: 5px;
+margin: 0;
+margin-bottom: 30px;
+
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+text-align: start;
+}
+
+.gallery-item:not(:nth-child(3n + 3)) {
+  margin-right: 30px;
+}
+
+.galerry-card:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 0px;
+}
+
+.gallery-item img {
+  display: block;
+}
+
+.gallery-item {
+  color: inherit;
+}
+
+.gallery-item p {
+  display: inline-block;
+  margin: 0;
+}
+  
+  .image-tehnokriak {
+   background: url(portfolio1.jpg)
+  }
+  
+  .image-poster {
+  background: url(portfolio2.jpg);
+  }
+  
+  .image-seafood {
+  background: url(portfolio-1.jpg);
+  }
+  
+  .image-prime {
+  background: url(portfolio-2.jpg);
+  }
+  
+  .image-boxes {
+  background: url(portfolio5.jpg);
+  }
+  
+  .image-inspiratio {
+  background: url(111.jpg);
+  }
+  
+  .image-limited {
+  background: url(portfolio7.jpg);
+  }
+  
+  .image-lab {
+  background: url(portfolio8.jpg);
+  }
+  
+  .image-growing {
+  background: url(2910404.jpg);
+  }
+  
+.text-filtr {
+padding: 20px 24px 20px 24px;
+background: var(--main-background-color);
+box-sizing: border-box;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-top: 0;
+border: 1px solid #EEEEEE;
+margin: 0;
+margin-bottom: 4px;
+
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+text-align: start; 
+}
+
+  .title-filtr {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  color: var(--primary-text-color);
+  }
+  
+  .text-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: var(--text-color-gray);
+  }
