@@ -15,8 +15,12 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-facebook {
-  width: 0.5625em;
+.icon-mail {
+  width: 1.34375em;
+}
+
+.icon-phone {
+  width: 0.625em;
 }
 
 .icon-Logo1 {
@@ -43,10 +47,10 @@ Single-colored icons can be modified like so:
   width: 1.78125em;
 }
 
-.icon-mail {
-  width: 1.34375em;
+.icon-twitter {
+  width: 1.125em;
 }
 
-.icon-phone {
-  width: 0.625em;
+.icon-facebook {
+  width: 0.5625em;
 }

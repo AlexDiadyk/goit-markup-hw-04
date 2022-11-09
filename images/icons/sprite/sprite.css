@@ -3,37 +3,32 @@
   background-repeat: no-repeat;
   background-image: url(sprite.svg);
 }
-.icon-antenna {
-  width: 32px;
+.icon-mail {
+  width: 43px;
   height: 32px;
   background-position: 0 0;
 }
-.icon-astronaut {
-  width: 32px;
-  height: 32px;
-  background-position: -48px 0;
-}
-.icon-clock {
-  width: 32px;
+.icon-phone {
+  width: 20px;
   height: 32px;
   background-position: -96px 0;
 }
-.icon-diagram {
+.icon-antenna {
   width: 32px;
   height: 32px;
   background-position: -144px 0;
 }
-.icon-facebook {
-  width: 18px;
+.icon-astronaut {
+  width: 32px;
   height: 32px;
   background-position: -192px 0;
 }
-.icon-instagram {
+.icon-clock {
   width: 32px;
   height: 32px;
   background-position: -240px 0;
 }
-.icon-linkedin {
+.icon-diagram {
   width: 32px;
   height: 32px;
   background-position: -288px 0;
@@ -68,18 +63,23 @@
   height: 32px;
   background-position: -96px -48px;
 }
-.icon-mail {
-  width: 43px;
+.icon-twitter {
+  width: 36px;
   height: 32px;
   background-position: -192px -48px;
 }
-.icon-mobile {
+.icon-facebook {
+  width: 18px;
+  height: 32px;
+  background-position: -240px -48px;
+}
+.icon-linkedin {
   width: 32px;
   height: 32px;
   background-position: -288px -48px;
 }
-.icon-phone {
-  width: 20px;
+.icon-instagram {
+  width: 32px;
   height: 32px;
   background-position: -336px -48px;
 }
