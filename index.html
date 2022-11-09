@@ -31,14 +31,18 @@
         <ul class="contacts list">
             <li>
                 <a class="mail-header link" rel="noopener noreferrer nofollow" href="info@devstudio.com">
-                    <svg class="contacts icon" width="16" height="12">
-                        <use href="./images/icons#icon-mail"></use>
-                    </svg>
+                    <svg class="item-icon mail">
+                        <use href="./images/icons.svg#icon-mail"></use>
+                    </svg>  
                     info@devstudio.com
                 </a>
             </li>
             <li>
-                <a class="tel-header link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="tel-header link" href="tel:+380961111111">
+                    <svg class="item-icon phone">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                    +38 096 111 11 11</a>
             </li>
         </ul>
     </div>
@@ -46,7 +50,7 @@
     <!-- основний контент-->
     <main>
         <!-- секція рішення -->
-        <section class="hero section-order">
+        <section class="hero section-order overlay">
             <div class="order-container">
             <h1 class="title-decision">Ефективні рішення для вашого бізнесу</h1>
             <button type="button" class="button">Замовити послугу</button>
@@ -60,18 +64,38 @@
             <!-- Переваги -->
             <ul class="list">
                 <li class="item">
+                    <div class="advantages-background">
+                        <svg class="advantages-icons">
+                            <use href="./images/icons.svg#icon-antenna" ></use>
+                        </svg>
+                    </div>
                     <h3 class="title">Увага до деталей</h3>
                     <p class="advantage-text">Ідеї міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li class="item">
+                    <div class="advantages-background">
+                        <svg class="advantages-icons" width="70" height="70">
+                            <use href="./images/icons.svg#icon-clock"></use>
+                        </svg>
+                    </div>
                     <h3 class="title">Пунктуальність</h3>
                     <p class="advantage-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li class="item">
+                    <div class="advantages-background">
+                        <svg class="advantages-icons" width="70" height="70">
+                            <use href="./images/icons.svg#icon-diagram"></use>
+                        </svg>
+                    </div>
                     <h3 class="title">Планування</h3>
                     <p class="advantage-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li class="item">
+                    <div class="advantages-background">
+                        <svg class="advantages-icons" width="70" height="70">
+                            <use href="./images/icons.svg#icon-astronaut"></use>
+                        </svg>
+                    </div>
                     <h3 class="title">Сучасні технології</h3>
                     <p class="advantage-text">Значимість цих проблем настільки очевибна, що реалізація планових завдань.</p>
                 </li>
@@ -102,6 +126,36 @@
             <div class="team-wrapper">
                 <h3 class="name">Ігор Дем'яненко</h3>
                 <p class="specialty">Product Designer</p>
+                <ul class="icons list">
+                    <li class="icon item">
+                      <a class="social link" href="">
+                        <svg class="center" width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="icon item">
+                      <a class="social link" href="">
+                        <svg class="center" width="20" height="20" viewBox="0 0 20 20">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="icon item">
+                      <a class="social link" href="">
+                        <svg class="center" width="20" height="20" viewBox="0 0 20 20">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="icon item">
+                      <a class="social link" href="">
+                        <svg class="center" width="20" height="20" viewBox="0 0 20 20">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
             </div>
             </li>
             <li class="team-item">

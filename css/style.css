@@ -172,23 +172,42 @@ letter-spacing: 0.02em;
 color: var(--text-color-gray);
 }
 
+.item-icon{
+    margin-right: 10px;
+}
+
+.item-icon.phone{
+  width: 10px;
+  height: 15px;
+}
+
+.item-icon.mail{
+  width: 16px;
+  height: 12px;
+}
+
+
 /* основний зміст */
 
 /*секція рішення*/
 .hero {
+margin: 0 auto;
 text-align: center;
-background: var(--second-background-color);
+background-color: var(--second-background-color);
+}
+
+.overlay {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/bgimage-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
 }
 
 .section-order {
 max-width: 1600px;
 margin-right: auto;
 margin-left: auto;
-
-background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 }
 
 .order-container {
@@ -279,6 +298,23 @@ color: var(--text-color-gray);
 
 .advantages .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.advantages-background{
+  display: flex;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--third-color-background);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-icons{
+  display: flex;
+  width: 70px;
+  height: 70px;
 }
 
 /* чим займаємось */
