@@ -600,6 +600,43 @@ margin-bottom: 0px;
 color: var(--text-color-gray);
 }
 
+
+.footer {
+  display: flex;
+}
+
+.social-block {
+  margin-top: 72px;
+  margin-left: 100px;
+}
+
+.join {
+    margin-bottom: 20px;
+    color: var(--text-color-white);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    text-align: left;
+}
+footer .icons.list {
+  min-width: 206px;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+footer .social.link {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--text-color-white);
+}
+footer .social.link:hover {
+  background: var(--accent);
+}
+
+
+
+
 /* portfolio */
 
 .main-portfolio {
