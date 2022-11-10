@@ -42,7 +42,7 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
-max-width: 1200px;
+width: 1200px;
 }
 
 .list {
@@ -542,6 +542,8 @@ background: var(--second-background-color);
 .container-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -602,33 +604,32 @@ color: var(--text-color-gray);
 
 
 .footer {
-  display: flex;
+display: flex;
 }
 
 .social-block {
-  margin-top: 72px;
-  margin-left: 100px;
+ margin-left: 100px;
 }
 
 .join {
-    margin-bottom: 20px;
-    color: var(--text-color-white);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    text-align: left;
+margin-bottom: 20px;
+color: var(--text-color-white);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+text-align: left;
 }
 footer .icons.list {
-  min-width: 206px;
-  display: flex;
-  padding: 0;
-  justify-content: space-between;
+min-width: 206px;
+display: flex;
+padding: 0;
+justify-content: space-between;
 }
 footer .social.link {
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
-  fill: var(--text-color-white);
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.1);
+fill: var(--text-color-white);
 }
 footer .social.link:hover {
   background: var(--accent);
@@ -779,14 +780,8 @@ text-align: start;
 .text-filtr {
 padding: 20px 24px 20px 24px;
 background: var(--main-background-color);
-box-sizing: border-box;
-border-bottom-right-radius: 5px;
-border-bottom-left-radius: 5px;
-border-top: 0;
 border: 1px solid #EEEEEE;
 margin: 0;
-margin-bottom: 4px;
-
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -795,10 +790,8 @@ text-align: start;
 }
 
   .title-filtr {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
   margin-top: 0px;
   margin-bottom: 4px;
   color: var(--primary-text-color);
