@@ -8,6 +8,7 @@
 --second-background-color: #2F303A;
 --third-color-background: #F5F4FA;
 --portfolio-item-bg: #EEEEEE;
+--border-partners-company: #AFB1B8;
 }
 
 /* html {
@@ -536,11 +537,10 @@ color: var(--text-color-gray);
   background-color: var(--color-accent-hover);
 }
 
-/* Постійні клієнти /
 
-.employment-partners{
-  padding-top: 94px;
-  padding-bottom: 94px;
+.employment-partners {
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .title-section{
@@ -548,22 +548,52 @@ color: var(--text-color-gray);
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  color: var(--primary-text-color);
 }
 
 .partners{
   display: flex;
   justify-content: space-between;
   /* padding-bottom: 94px; */
+  margin: 0;
+  padding: 0%;
 }
 
 .partners-image{
   display: flex;
 }
+
+.partners-link{
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--border-partners-company);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-logo{
+display: block;
+fill: var(--border-partners-company);
+Width: 106px;
+Height: 60px;
+}
+
+.partners-link:hover,
+.partners-link:focus{
+  border: 1px solid var(--accent);
+}
+
+.partners-link:hover > .partners-logo,
+.partners-link:focus > .partners-logo{
+  fill: var(--accent);
+}
+
 
 
 /*footer*/
@@ -720,11 +750,11 @@ footer .social.link:hover {
   background-color: var(--accent);
   }
 
-.main-portfolio-button:hover,
-.main-portfolio-button:focus {
-  color: var(--primary-bg-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
+
+.item .button-filtr:hover,
+.item .button-filtr:focus{
+    color: var(--main-background-color);
+    background-color: var(--accent);
 }
 
 .item:hover,
